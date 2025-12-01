@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaberia Sinaga - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            padding-left: 20px; /* Memberikan ruang di kiri */
+            padding-right: 20px; /* Memberikan ruang di kanan */
+        }
+        
+        .max-w-7xl {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .max-w-3xl {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="bg-gray-900 border-b border-gray-800 fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-xl font-bold">Gaberia Sinaga</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="hover:text-blue-400">Home</a>
+                    <a href="#skill" class="hover:text-blue-400">Skill</a>
+                    <a href="#project" class="hover:text-blue-400">Project</a>
+                    <a href="#experience" class="hover:text-blue-400">Experience</a>
+                    <a href="#certification" class="hover:text-blue-400">Certification</a>
+                    <a href="#contact" class="hover:text-blue-400">Contact</a>
+                </div>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gaberiasng@gmail.com">
+                    <button class="bg-blue-800 hover:bg-blue-700 px-6 py-2 rounded-lg">Hire me</button>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl font-bold mb-6">
+                        Hi, I'm <span class="text-gray-400">Gaberia<br>Sinaga</span>, Data Enthusiast &<br>Technical Writer
+                    </h1>
+                    <p class="text-gray-400 mb-6 leading-relaxed">
+                        I am a Computer Science graduate from Institut Teknologi Sumatera with an interest in Data Analysis, Data Entry, and Technical Writing. I have experience as a Teaching Assistant for C++, a Data Entry Intern, and certifications in 
+                        Microsoft Excel, SQL, Python, and data visualization using Google Looker Studio and Power BI. Active involvement in student organizations has helped me develop teamwork, communication, and adaptability skills. I am ready to contribute my best with a meticulous approach and a commitment to continuous learning.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#Skill">
+                            <button id="Skill" class="bg-blue-800 hover:bg-blue-700 px-6 py-3 rounded-lg">Get Started</button>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1qS4SjdUCZ2AR7S4yt6Ic3cAWT5e3mpnd/view?usp=drive_link">
+                            <button class="border border-gray-600 hover:border-gray-500 px-6 py-3 rounded-lg">Download CV</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="rounded-3xl w-80 h-96 overflow-hidden">
+                      <img src="gab.png" alt="Profile" class="w-full h-full object-contain scale-110">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skill" class="py-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">My Skill</h2>
+            
+            <!-- Technical -->
+            <div class="mb-12">
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                      <div class="mb-2">
+                        <img src="sql-server.png" alt="SQL" class="w-12 h-12 mx-auto">
+                      </div>
+                      <p>SQL</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="python.png" alt="Python" class="w-12 h-12 mx-auto">                     
+                        </div>
+                        <p>Python</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="postgre.png" alt="PostgreSql" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>PostgreSql</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="DB-Browser-for-SQLite (1).png" alt="DB Browser" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>DB Browser</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="bigquery.png" alt="Google BigQuery" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>Google BigQuery</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="exploration.png" alt="Data visualization" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>Data visualization</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="looker-studio-22-1-1.png" alt="Google Looker" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>Google Looker Studio</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="power Bi.png" alt="Power BI" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>Power BI</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="github.png" alt="Github" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>GitHub</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="office.png" alt="Microsoft Office" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>Microsoft Office</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="draw.io.png" alt="Draw.io" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>Draw.io</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="figma.png" alt="Figma" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>Figma</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="palette.png" alt="Canva" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>Canva</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="html.png" alt="HTML" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>HTML</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center hover:bg-gray-700 transition">
+                        <div class="text-3xl mb-2">
+                          <img src="css-3.png" alt="CSS" class="w-12 h-12 mx-auto">
+                        </div>
+                        <p>CSS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="project" class="py-16 px-4 bg-gray-800/30">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">Project</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition">
+                    <img src="P1.png" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Tokopedia Sales Data Visualization</h3>
+                        <p class="text-sm text-blue-400 mb-3">Excel - Google Looker Studio</p>
+                        <p class="text-gray-400 mb-4">This project focuses on data visualization using Google Looker Studio to analyze the sales performance of an e-commerce platform (Tokopedia), without using real data. In this project, the data was cleaned by removing duplicates 
+                            and null values to ensure accurate insights. Various dashboards were created to track sales trends, profit margins, and average order value (AOV), while highlighting key metrics such as value sales, net profit, and campaign performance. These visualizations allowed for a comprehensive analysis of sales patterns and helped identify areas that need improvement in marketing strategies, product promotions, and customer engagement.</p>
+                        <a href="https://lookerstudio.google.com/reporting/f3ec9547-bf90-4365-a007-b858390dd60a" class="text-blue-400 hover:text-blue-300">Learn More →</a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition">
+                    <img src="P2.png" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Tokopedia Sales Data</h3>
+                        <p class="text-sm text-blue-400 mb-3">SQL - PostgreSQL</p>
+                        <p class="text-gray-400 mb-4">This project focuses on analyzing the business performance of an e-commerce company using SQL. In this project, data cleaning and analysis were conducted on transactional and customer data to derive insights into sales trends, category performance,
+                            channel effectiveness, and customer acquisition. The project involved identifying and removing duplicates, checking for null values, and utilizing SQL queries to answer specific business questions. The analysis led to actionable recommendations aimed at improving marketing 
+                            strategies, optimizing inventory management, and enhancing customer engagement across multiple channels.</p>
+                        <a href="https://github.com/gaberia-125/Project1_SQL" class="text-blue-400 hover:text-blue-300">Learn More →</a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition">
+                    <img src="P3.png" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Tokopedia Sales Data</h3>
+                        <p class="text-sm text-blue-400 mb-3">Python - Colab</p>
+                        <p class="text-gray-400 mb-4"> This project involves data analysis using Python to examine sales and customer data for an e-commerce platform. In this project, 
+                            the data was cleaned, merged, and manipulated to uncover insights into sales trends, campaign effectiveness, and customer behavior. Analysis was conducted on 
+                            product performance, the impact of marketing campaigns, and identifying customers who registered but did not complete their purchase. The results were used to generate actionable recommendations for optimizing marketing strategies, improving sales conversions</p>
+                        <a href="https://github.com/gaberia-125/Project1_SQL" class="text-blue-400 hover:text-blue-300">Learn More →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+     <!-- Experience Section -->
+    <section id="experience" class="py-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">Experience</h2>
+            <div class="space-y-8">
+                <!-- Experience 1 -->
+                <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Teaching Assistant - C++ Programming</h3>
+                            <p class="text-blue-400 mb-2">Institut Teknologi Sumatera</p>
+                        </div>
+                        <span class="text-gray-400 text-sm">Feb 2024 - May 2024</span>
+                    </div>
+                    <ul class="text-gray-400 space-y-2">
+                        <li>• Assisted the lecturer in preparing and conducting practical sessions for approximately 78 students.</li>
+                        <li>• Evaluated assignments and exams using Microsoft Excel.</li>
+                        <li>• Compiled practical session reports as evidence and learning evaluation.</li>
+                        <li>• Guided students in understanding practical session materials (operating systems, basic programming with C++, conditionals, loops, arrays, matrices, etc.)</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Data Entry Intern</h3>
+                            <p class="text-blue-400 mb-2">PT Sumber IndahPerkasa</p>
+                        </div>
+                        <span class="text-gray-400 text-sm">July 2024 - Aug 2025</span>
+                    </div>
+                    <ul class="text-gray-400 space-y-2">
+                        <li>Conducted field surveys, managed, validated, and accurately entered pump machine inventory data into Microsoft Excel.</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Himpunan Mahasiswa Informatika - Student Organization</h3>
+                            <p class="text-blue-400 mb-2">Institut Teknologi Sumatera</p>
+                        </div>
+                        <span class="text-gray-400 text-sm">2022 - 2025</span>
+                    </div>
+                    <ul class="text-gray-400 space-y-2">
+                        <li>• Developed strong teamwork and communication skills through collaborative projects</li>
+                        <li>• Organized and participated in various academic and social events</li>
+                        <li>• Enhanced leadership and problem-solving abilities</li>
+                        <li>• Built extensive network with peers and professionals</li>
+                    </ul>
+                </div>
+                
+                <!-- Experience 4 -->
+                <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">UKM Unit Mahasiswa Pecinta Budaya Sumatera - Student Organization</h3>
+                            <p class="text-blue-400 mb-2">Institut Teknologi Sumatera</p>
+                        </div>
+                        <span class="text-gray-400 text-sm">2023 - 2025</span>
+                    </div>
+                    <ul class="text-gray-400 space-y-2">
+                        <li>• Developed strong teamwork and communication skills through collaborative projects</li>
+                        <li>• Organized and participated in various academic and social events</li>
+                        <li>• Enhanced leadership and problem-solving abilities</li>
+                        <li>• Built extensive network with peers and professionals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section id="certification" class="py-16 px-4 bg-gray-800/30">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">Certification</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Certification 1 -->
+                <div class="bg-gray-800 rounded-lg p-6 hover:transform hover:scale-105 transition">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-2xl">
+                            📊
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold"> Microsoft Excel Certification</h3>
+                            <p class="text-sm text-gray-400">Dsarea</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-3">Advanced Excel skills including data analysis,  data processing, logical functions, lookup, pivot tables, pivot charts, and formulas.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-400 text-sm">Sept 2025</span>
+                        <a href="https://drive.google.com/file/d/1h5qbTDTuX55R37V1Nx36qZDIiwpaRfVz/view?usp=sharing" class="text-blue-400 hover:text-blue-300 text-sm">View Certificate →</a>
+                    </div>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="bg-gray-800 rounded-lg p-6 hover:transform hover:scale-105 transition">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-2xl">
+                            🗄️
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold">Fullstack Intensive BootcampData Analyst</h3>
+                            <p class="text-sm text-gray-400">MySkill</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-3">Fundamentals of data analysis & statistics, SQL (basic to advanced), Python for analysis & automation, data cleaning,
+                        and visualization with Google Looker Studio and Power BI.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-400 text-sm">2025</span>
+                        <a href="https://drive.google.com/file/d/1ySrQcO5Ls7iUaAFpyE1OlRnxLgBznYEo/view?usp=sharing" class="text-blue-400 hover:text-blue-300 text-sm">View Certificate →</a>
+                    </div>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="bg-gray-800 rounded-lg p-6 hover:transform hover:scale-105 transition">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-2xl">
+                            🐍
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold">Final Project Mentoring Data Analysis</h3>
+                            <p class="text-sm text-gray-400">MySkill</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-3"> Project work using SQL with PostgreSQL and Google BigQuery, Python with Colab, Data Visualization using Google
+                        Looker Studio and Power BI.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-400 text-sm">2025</span>
+                        <a href="https://drive.google.com/file/d/1I94c20s5Gc12KoxSiZKu5mCBUyTIBRdz/view?usp=drive_link" class="text-blue-400 hover:text-blue-300 text-sm">View Certificate →</a>
+                    </div>
+                </div>
+
+                <!-- Certification 4 -->
+                <div class="bg-gray-800 rounded-lg p-6 hover:transform hover:scale-105 transition">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-2xl">
+                            📈
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold">Fundamental Database MySQL</h3>
+                            <p class="text-sm text-gray-400">Dicoding</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-3">The Fundamental Database MySQL course focused on the essentials of database management using MySQL. I gained hands-on experience in
+                        installing and configuring MySQL Workbench, applying Data Definition Language (DDL), Data Manipulation Language (DML), and creating relationships between tables. This training sharpened my ability to manage and structure databases effectively to support data-driven analysis.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-400 text-sm">2025</span>
+                        <a href="https://drive.google.com/file/d/19eSytk5FdLKNpGGCpDUiDa32jAyrTfEY/view?usp=drive_link" class="text-blue-400 hover:text-blue-300 text-sm">View Certificate →</a>
+                    </div>
+                </div>
+
+                <!-- Certification 5 -->
+                <div class="bg-gray-800 rounded-lg p-6 hover:transform hover:scale-105 transition">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-2xl">
+                            📊
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold">Fundamental Python</h3>
+                            <p class="text-sm text-gray-400">Dicoding</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-3">Fundamental Python course provided a comprehensive foundation in Python programming. 
+                        I learned key programming concepts such as logic programming, data types, control structures (conditional statements & loops), functions, and object-oriented programming (OOP). The course emphasized problem-solving with Python.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-400 text-sm">2025</span>
+                        <a href="https://drive.google.com/file/d/1V79fg4Uev7gOwSngVfJmRUUiVg7VvV4B/view?usp=drive_link" class="text-blue-400 hover:text-blue-300 text-sm">View Certificate →</a>
+                    </div>
+                </div>
+
+                <!-- Certification 6 -->
+                <div class="bg-gray-800 rounded-lg p-6 hover:transform hover:scale-105 transition">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-2xl">
+                            📝
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold">Data Analytics and Visualization</h3>
+                            <p class="text-sm text-gray-400">Dsarea</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-3">Completed the Data Analytics and Visualization course, where I mastered advanced Excel techniques,
+                        Power BI for data cleaning and visualization, and Python for data analysis using libraries like Pandas and Matplotlib. The course also covered SQL for efficient query writing and database management with BigQuery, equipping me with essential skills for data-driven decision-making.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-400 text-sm">2023</span>
+                        <a href="https://drive.google.com/file/d/1mYsoZQ_iYF9ZbnGjGgYikVDYg5HCIZIm/view?usp=drive_link" class="text-blue-400 hover:text-blue-300 text-sm">View Certificate →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Get In Touch</h2>
+            <p class="text-gray-400 mb-8">I’m always open to discussing data management, analysis, 
+                or collaboration opportunities. Feel free to reach out! Whether you have a question, need advice, or just want to connect, my inbox is always open, and I'll do my best to respond promptly.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gaberiasng@gmail.com">
+                    <button class="bg-blue-800 hover:bg-blue-700 px-8 py-3 rounded-lg">Say Hello</button>
+                </a>
+                <a href="https:/www.linkedin.com/in/gaberia-sinaga-7a53a1381">
+                    <button class="border border-gray-600 hover:border-gray-500 px-8 py-3 rounded-lg">LinkedIn</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="bg-gray-800/50 py-12 px-4">
+    <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+            <div class="mb-6 md:mb-0">
+                <h3 class="text-2xl font-bold mb-2">Gaberia Sinaga</h3>
+                <p class="text-gray-400"> A Data Analyst passionate about delivering solutions through sharp analysis and modern visualizations, <br> transforming data into smarter decisions.</p>
+            </div>
+            <div class="space-y-2">
+                <h4 class="text-xl font-bold mb-4">Social Media</h4>
+                <div class="space-y-2">
+                    <a href="https:/www.linkedin.com/in/gaberia-sinaga-7a53a1381" class="flex items-center gap-2 text-gray-400 hover:text-white">
+                        <div class="text-3xl">
+                          <img src="linkedin.png" alt="LinkedIn" class="w-6 h-6 mx-auto">
+                        </div>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.instagram.com/gaberia.sng?igsh=MXZpNmx3d2d3OGszOA==" class="flex items-center gap-2 text-gray-400 hover:text-white">
+                        <div class="text-3xl">
+                          <img src="instagram-logo-png (1).png" alt="Instagram" class="w-6 h-6 mx-auto">
+                        </div>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gaberiasng@gmail.com" class="flex items-center gap-2 text-gray-400 hover:text-white">
+                        <div class="text-3xl">
+                          <img src="gmail.png" alt="Email" class="w-6 h-6 mx-auto">
+                        </div>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-8 pt-8 border-t border-gray-700 text-gray-400">
+            <p>Copyright © 2024 GaberiaSinaga. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <!-- Scroll to top button -->
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="fixed bottom-8 right-8 bg-blue-800 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg">
+        ↑
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+</body>
+</html>
